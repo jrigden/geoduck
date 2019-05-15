@@ -1,0 +1,330 @@
+
+body {
+    margin: 0px;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 1rem;
+  }
+  
+  h1, h2, h3, h4, h5, h6, .dark-links  {
+      font-family: futura-pt-bold, sans-serif;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-style: normal;
+  }
+  
+  blockquote {
+      margin: 1rem;
+      padding: 1rem;
+      background-color: #F5F5F5;
+    }
+  
+  p {
+  line-height: 1.5rem;
+  text-align: justify;
+  }
+  
+  .wrapper {
+      display: flex;
+  }
+  .left {
+      flex: 0 0 70%;
+      text-align: left;
+  }
+  
+  .right {
+      flex: 1;
+      text-align: right;
+  }
+  
+  /* Links */
+  a:link {
+    color: red;
+    text-decoration: none;
+  }
+  a:visited {
+    color: red;
+    text-decoration: none;
+  }
+  .dark-links  a:link, .dark-links  a:visited {
+      color: black;
+      text-decoration: none;
+  }
+  
+  
+  /* nav */
+  nav {
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    font-family: futura-pt-bold, sans-serif;
+    padding: 1rem;
+  }
+  nav {
+      text-align: right;
+  }
+  nav  a:link, nav  a:visited {
+    color: white;
+    text-decoration: none;
+  } 
+  nav .left {
+      text-align: left;
+  }
+  
+  
+  /* main */
+  .main {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      max-width: 40rem;
+      margin: 0 auto;
+    }
+  
+  
+  /* about */
+  .about img {
+      padding-top: 1rem;
+      width: 100%;
+      height: auto;
+  }
+  .about p{
+      text-align: justify;
+  }
+  
+  
+  
+  
+  /* about-links  */
+  .about-links a {
+      font-size: 2rem;
+      padding-right: 1rem;
+    }
+  
+  .podcast-about-links p {
+    text-align: center;
+  }
+  .podcast-about-links a {
+    font-size: 2rem;
+    padding-right: 1rem;
+  }
+  
+  
+  
+  /* post-media   */
+  .post-media img{
+  padding-top: 1rem;
+  
+  }
+  .post img{
+  width: 100%;
+  height: auto;
+  
+  }
+  
+  
+  /* post-header */
+  .post-header h1,  .post-header h2 {
+      margin-bottom: 0rem;
+    
+  }
+  .post-header h5 {
+      margin-top: 0rem;
+  }
+
+  .post-header a:link {
+    color: black;
+    text-decoration: none;
+  }
+  .post-header a:visited {
+    color: black;
+    text-decoration: none;
+  }
+
+  
+  /* post-body */
+  
+  
+  
+  /* post-footer */
+  .post-footer {
+    text-align: center;
+  }
+  .post-footer h5 {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  
+  }
+  
+  
+  /* post-related */
+  .post-related h5 {
+      margin-bottom: .5rem;
+      font-size: 2rem;
+    }
+    
+    
+    .post-related ul {
+      margin-top: 0rem;  
+      list-style-type: none;
+      padding: 0rem;
+      text-align: center;
+      line-height: 2rem;
+    }
+    
+  
+  /* list-of-posts */
+  .list-of-posts h1{ 
+      text-align: center;
+  }
+  
+  .list-of-posts h2 {
+    margin-bottom: 0rem;
+  }
+  
+  .list-of-posts h5 {
+      margin: 0rem;
+  
+    }
+  
+  
+  /* list-item */
+  .list-item {
+      margin-bottom: 2rem;
+  }
+  
+  
+  /* pagination */
+  .pagination {
+    font-weight: bold;
+      padding-top: 1rem;
+    }
+
+  
+  /* embed-container */
+  .embed-container {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  
+  }
+  .embed-container { 
+      position: relative; 
+      padding-bottom: 56.25%; 
+      height: 0; 
+      overflow: hidden; 
+
+      max-width: 100%; 
+  } 
+  .embed-container iframe, .embed-container object, .embed-container embed { 
+      position: absolute; 
+      top: 0; 
+      left: 0; 
+      width: 100%; 
+      height: 100%; 
+  }
+  
+  
+  /* code */
+  code {
+    font-size: 16px;
+  }
+  
+  
+  /* Social Media Colors */
+  .fa-facebook, .fa-facebook-square {
+    color: #3b5998
+  }
+  .fa-twitter, .fa-twitter-square {
+    color: #00aced
+  }
+  .fa-linkedin, .fa-linkedin-square {
+    color: #007bb6
+  }
+  .fa-instagram {
+    color: #517fa4;
+  }
+  .fa-youtube, .fa-youtube-play, .fa-youtube-square {
+    color: #bb0000
+  }
+  
+  
+  /* podcast-list */
+  .podcast-list {
+    list-style-type: none;
+    padding: 0rem;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 2rem;
+  }
+  
+  
+  .podcast-list  a:link, .podcast-list  a:visited {
+    text-decoration: none;
+    color: black;
+  } 
+  
+  .subscribe {
+    max-width: 25rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .subscribe p{
+    text-align: center;
+  }
+  .subscribe img {
+    max-width: 10rem;
+  }
+  
+  
+  /* Forms */
+ 
+  /* Odds and Ends */
+  .twitter-tweet  {
+    margin: 0 auto;
+  }
+  
+  .center-text {
+    text-align: center;
+  }
+  
+  
+  .about .subscribe-header {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 0rem;
+  }
+  .cover-art {
+    max-width: 30rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  } 
+  
+  .callout {
+    text-align: center;
+    font-family: futura-pt-bold, sans-serif;
+    background-color: 	#E0E0E0;
+    padding: 2rem;
+    font-size: 1.5rem;
+  }
+  
+  .callout  a:link, .callout  a:visited {
+    text-decoration: none;
+    color: red;
+  } 
+  
+    .about-text h1{
+      text-align: center;
+      margin-top: .5rem;
+      margin-bottom: 0rem;
+    }
+    .about-text p{
+      text-align: center;
+      margin-top: 0rem;
+      
+    }
+    .about img {
+      padding-top: 0rem;
+  
+  }
