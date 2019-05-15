@@ -244,6 +244,14 @@ body {
   
   
   /* Social Media Colors */
+  .social-links {
+    text-align: center;
+  }
+  .social-links a {
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+
   .fa-facebook, .fa-facebook-square {
     color: #3b5998
   }
