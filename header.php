@@ -27,12 +27,19 @@
 </head>
 
 <body>
-  <nav class="wrapper">
-    <div class="left">
-      <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo('name'); ?></a>
+  <nav>
+    <div class="wrapper">
+      <div class="left">
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo('name'); ?></a>
+      </div>
+      <div  id="hamburger" class="right ">
+      <i class="fas fa-bars"></i>
+      </div>
     </div>
-    <div class="right">
-      <a href="<?php echo esc_url( home_url( '/subscribe' ) ); ?>">Subscribe</a>
+    <div id="site-menu" class="hidden">
+    <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
+
     </div>
+
   </nav>
   <div class="main">

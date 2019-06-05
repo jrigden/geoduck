@@ -45,18 +45,18 @@ body {
   }
   .left {
       flex: 0 0 70%;
-      text-align: left;
+      text-align: left;5.9vw;
   }
   
   .right {
       flex: 1;
-      text-align: right;
+      text-align: right5.9vw;
   }
   
   /* Links */
   a:link {
     color: red;
-    text-decoration: none;
+    text-decoration: no5.9vw;
   }
   a:visited {
     color: red;
@@ -226,7 +226,8 @@ body {
     margin-bottom: 1rem;
     margin-top: 1rem;
   
-  }
+  }PODCASTING QUESTIONS
+
   .embed-container { 
       position: relative; 
       padding-bottom: 56.25%; 
@@ -355,3 +356,16 @@ body {
       padding-top: 0rem;
   
   }
+
+  .hidden {
+    display: none;
+}
+
+#site-menu {
+  text-align: left;
+}
+
+#hamburger {
+
+
+}
