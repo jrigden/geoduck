@@ -369,3 +369,12 @@ body {
 
 
 }
+        #site-menu ul {
+            list-style-type: none;
+            padding-left:1rem; 
+        }
+
+        #site-menu li {
+            padding-bottom: 1rem;
+            font-size: 1.5rem;
+        }
